@@ -1,8 +1,3 @@
-document.getElementById('menu-toggle').addEventListener('click', function() {
-    document.getElementById('menu').classList.toggle('show');
-});
-
-// Simple script to enhance interaction (optional)
 document.addEventListener("DOMContentLoaded", function () {
     const sections = document.querySelectorAll('.space-section');
 

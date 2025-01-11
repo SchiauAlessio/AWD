@@ -9,7 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #f4f4f4;  /* Light text for contrast */
-    background-color: #0a0a0a; /* Dark background for better contrast */
+    background-color: #1D1616; /* Dark background for better contrast */
 }
 
 header {
@@ -50,7 +50,7 @@ main {
 
 .space-section {
     margin-bottom: 2rem;
-    background: linear-gradient(135deg, rgba(10, 10, 10, 0.9), rgba(30, 30, 30, 0.7)); /* Darker gradient */
+    background: linear-gradient(135deg, rgba(10, 10, 10, 0.85), rgba(30, 30, 30, 0.5)); /* Lightened gradient */
     padding: 2.5rem;
     border-radius: 12px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
