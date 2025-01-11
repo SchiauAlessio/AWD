@@ -11,4 +11,19 @@ document.addEventListener("DOMContentLoaded", function () {
             section.style.transform = 'scale(1)';
         });
     });
+
+    const newSection = document.getElementById('space-bar');
+
+    document.addEventListener('keydown', function (e) {
+        if (e.code === 'Space') {
+            e.preventDefault();
+
+            if (newSection.classList.contains('active')) {
+                newSection.classList.remove('active');
+            } else {
+                newSection.classList.add('active');
+                newSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    });
 });
